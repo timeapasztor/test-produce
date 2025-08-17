@@ -36,10 +36,7 @@ export default function RootLayout({
           }}
         >
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/products/123">Product 123 (dynamic)</Link>
+          <Link href="/produce">Produce</Link>
         </header>
         {children}
       </body>
