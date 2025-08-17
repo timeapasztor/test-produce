@@ -52,7 +52,7 @@ export default function About() {
       });
   }, []);
 
-  let items = [...produce];
+  const items = [...produce];
   if (sort === "az") {
     items.sort((a, b) => a.name.localeCompare(b.name));
   }
